@@ -1,4 +1,7 @@
-# test coverage for  [backblaze-b2 (v1.0.0)](https://github.com/yakovkhalinsky/backblaze-b2)  [![npm package](https://img.shields.io/npm/v/npmtest-backblaze-b2.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-backblaze-b2) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-backblaze-b2.svg)](https://travis-ci.org/npmtest/node-npmtest-backblaze-b2)
+# npmtest-backblaze-b2
+
+#### basic test-coverage for  [backblaze-b2 (v1.0.0)](https://github.com/yakovkhalinsky/backblaze-b2)  [![npm package](https://img.shields.io/npm/v/npmtest-backblaze-b2.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-backblaze-b2) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-backblaze-b2.svg)](https://travis-ci.org/npmtest/node-npmtest-backblaze-b2)
+
 #### Node.js Library for the Backblaze B2 Storage Service
 
 [![NPM](https://nodei.co/npm/backblaze-b2.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/backblaze-b2)
@@ -81,7 +84,8 @@
         "test": "npm run lint-all && npm run test-unit",
         "test-unit": "mocha \"test/**/*Test.js\""
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "bin": {}
 }
 ```
 
